@@ -1,0 +1,13 @@
+.stat-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:20px;margin-bottom:32px}
+.stat{padding:24px}
+.stat .label{font-size:.8rem;color:var(--muted);font-weight:700;letter-spacing:.06em;text-transform:uppercase}
+.stat .value{font-family:var(--font-h);font-size:2.1rem;font-weight:800;margin-top:8px}
+.stat.spent .value{color:#ffb4d8}
+.stat.left .value{color:#7ff0c4}
+.budget-layout{display:grid;grid-template-columns:360px 1fr;gap:24px;align-items:start}
+.exp-form{padding:24px;display:grid;gap:14px}
+.exp-list{padding:24px}
+.exp-row{display:grid;grid-template-columns:minmax(0,1fr) auto auto;gap:14px;align-items:center;padding:14px;border-radius:16px;background:rgba(255,255,255,.04);margin-bottom:12px}
+.exp-row h4{font-size:.98rem}
+.exp-row .amt{font-family:var(--font-h);font-weight:700}
+@media(max-width:900px){.budget-layout{grid-template-columns:1fr}}
