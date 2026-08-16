@@ -1,0 +1,12 @@
+.progress-card{padding:26px;margin-bottom:30px;text-align:center}
+.gauge{height:14px;border-radius:999px;background:rgba(255,255,255,.08);overflow:hidden;margin:16px 0 10px}
+.gauge-fill{height:100%;width:0;background:var(--grad);border-radius:999px;transition:width .45s ease}
+.pct{font-family:var(--font-h);font-size:2.6rem;font-weight:800}
+.pack-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:22px}
+.pack-cat{padding:22px}
+.pack-cat h3{display:flex;align-items:center;gap:10px;font-size:1.1rem;margin-bottom:16px}
+.pack-item{display:flex;align-items:center;gap:12px;padding:10px 12px;border-radius:14px;cursor:pointer;transition:.2s;font-size:.94rem}
+.pack-item:hover{background:rgba(255,255,255,.05)}
+.pack-item input{width:19px;height:19px;flex-shrink:0;accent-color:#8b5cf6;cursor:pointer}
+.pack-item.done span{text-decoration:line-through;color:var(--muted)}
+.add-item{display:flex;gap:10px;margin-top:14px}
